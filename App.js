@@ -1,11 +1,11 @@
 
 const Mycv = () => {
   return (
-    React.createElement('div', {className: 'cv-container'},
-      React.createElement('header', null,
-        React.createElement('h1', null, 'Thekra Aljagthmi'),
+        React.createElement('div', {className: 'cv-container'},
+        React.createElement('header', null,
+        React.createElement('h1', {className: 'cv-container'}, 'Thekra Aljagthmi'),
         React.createElement('p', null, 'Front-end Developer')
-      ),
+),
       React.createElement('section', null,
         React.createElement('h2', null, 'About Me'),
         React.createElement('p', null, 
